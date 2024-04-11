@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    .h-10 {
+      height: 10rem;
+    }
+
+    .h-5 {
+      height: 5rem;
+    }
+
+    .h-3 {
+      height: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Accordions</h1>
+  <div class="container mt-3">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="accordion " id="season-1">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="episode-1">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#episode-1-body"
+                aria-expanded="true" aria-controls="episode-1-body">Episode 1</button>
+            </h2>
+            <div id="episode-1-body" class="accordion-collapse collapse show" aria-labelledby="episode-1"
+              data-bs-parent="#season-1">
+              <div class="accordion-body">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur libero asperiores harum fugit,
+                quia excepturi. Ipsam deleniti tempora aut? Qui saepe perspiciatis natus ipsa ipsam laborum aperiam
+                quod, iste sint.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="episode-2">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#episode-2-body"
+                aria-expanded="true" aria-controls="episode-2-body">Episode 2</button>
+            </h2>
+            <div id="episode-2-body" class="accordion-collapse collapse" aria-labelledby="episode-2"
+              data-bs-parent="#season-1">
+              <div class="accordion-body">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta quam vitae harum libero aut eaque quae
+                vel beatae, esse fugit inventore nulla excepturi! Rem, sapiente aliquam nulla saepe ipsum deleniti.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="episode-3">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#episode-3-body"
+                aria-expanded="true" aria-controls="episode-3-body">Episode 3</button>
+            </h2>
+            <div id="episode-3-body" class="accordion-collapse collapse" aria-labelledby="episode-3"
+              data-bs-parent="#season-1">
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vel eum tempore! Veritatis culpa cupiditate
+                impedit consequatur omnis quia necessitatibus magnam praesentium officiis. Ratione voluptatibus
+                perferendis maiores. Suscipit, nostrum impedit?
+                Aspernatur, est sunt necessitatibus laboriosam a optio explicabo reiciendis magni beatae eligendi porro,
+                perspiciatis repellat id consequatur amet dolor earum alias? Sed provident maxime quasi distinctio
+                perspiciatis officiis deleniti ea.
+                Ex, saepe soluta! Eveniet fugit provident in eum soluta eius mollitia dolores dolorum totam repellendus,
+                voluptas amet consequatur illo doloremque sit. Molestias atque voluptatem, minus veritatis voluptatibus
+                voluptates eius reiciendis.
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    .h-10 {
+      height: 10rem;
+    }
+
+    .h-5 {
+      height: 5rem;
+    }
+
+    .h-3 {
+      height: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Form Validation</h1>
+  <div class="container mt-3">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <form onsubmit="runMe(); return false;" name="myForm">
+          <div class="mb-3">
+            <label for="username" class="form-label">Username</label>
+            <input type="text" class="form-control" id="username" name="u_name" placeholder="Enter username">
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password" name="u_pass" placeholder="Enter password">
+          </div>
+          <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    var u_name = document.myForm.username;
+    var u_pass = document.getElementById('password');
+
+    function runMe() {
+      if (u_name.value == '') {
+        u_name.classList.add('is-invalid');
+
+      } else if (u_name.value != '') {
+        u_name.classList.remove('is-invalid');
+        u_name.classList.add('is-valid');
+
+      }
+      if (u_pass.value == '') {
+        u_pass.classList.add('is-invalid');
+
+      } else if (u_name.value != '') {
+        u_pass.classList.remove('is-invalid');
+        u_pass.classList.add('is-valid');
+
+      }
+    }
+  </script>
+
+</body>
+</html>

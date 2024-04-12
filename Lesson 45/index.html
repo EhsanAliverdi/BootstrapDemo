@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <style>
+    .h-10 {
+      height: 10rem;
+    }
+
+    .h-5 {
+      height: 5rem;
+    }
+
+    .h-3 {
+      height: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Button Group Alteration</h1>
+  <div class="container mt-3">
+    <div class="row justify-content-center m-2">
+      <div class="col-md-6">
+        <div class="btn-group btn-group-lg" role="group" aria-label="Size Example">
+          <button type="button" class="btn btn-outline-primary">Left</button>
+          <button type="button" class="btn btn-outline-primary">Middle</button>
+          <button type="button" class="btn btn-outline-primary">Right</button>
+        </div>
+        <div class="btn-group" role="group" aria-label="Size Example">
+          <button type="button" class="btn btn-outline-primary">Left</button>
+          <button type="button" class="btn btn-outline-primary">Middle</button>
+          <button type="button" class="btn btn-outline-primary">Right</button>
+        </div>
+        <div class="btn-group btn-group-sm" role="group" aria-label="Size Example">
+          <button type="button" class="btn btn-outline-primary">Left</button>
+          <button type="button" class="btn btn-outline-primary">Middle</button>
+          <button type="button" class="btn btn-outline-primary">Right</button>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center m-2">
+      <div class="col-md-6">
+        <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+          <button type="button" class="btn btn-primary">1</button>
+          <button type="button" class="btn btn-primary">2</button>
+
+          <div class="btn-group" role="group">
+            <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Dropdown
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+              <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+              <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row justify-content-center m-2">
+      <div class="col-md-6">
+        <div class="btn-group-vertical" role="group" aria-label="Basic outlined example">
+          <button type="button" class="btn btn-outline-primary">Left</button>
+          <button type="button" class="btn btn-outline-primary">Middle</button>
+          <button type="button" class="btn btn-outline-primary">Right</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+</body>
+</html>

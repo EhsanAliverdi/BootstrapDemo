@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <h1 class="mb-3">List group</h1>
+
+    <!-- #region  Basic example -->
+    <div class="container border p-2 rounded-2">
+        <h3>Basic example</h3>
+        <div class="row">
+            <div class="col-md-6 p-4">
+                <ul class="list-group">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                    <li class="list-group-item">A fourth item</li>
+                    <li class="list-group-item">And a fifth one</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <!-- #endregion -->
+
+    <!-- #region  Active items -->
+    <div class="container border p-2 rounded-2 mt-4">
+        <h3>Active items</h3>
+        <div class="row">
+            <div class="col-md-6 p-4">
+                <ul class="list-group">
+                    <li class="list-group-item active" aria-current="true">An active item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                    <li class="list-group-item">A fourth item</li>
+                    <li class="list-group-item">And a fifth one</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <!-- #endregion -->
+
+
+
+    <!-- #region  Disabled items -->
+    <div class="container border p-2 rounded-2 mt-4">
+        <h3>Disabled items</h3>
+        <div class="row">
+            <div class="col-md-6 p-4">
+                <ul class="list-group">
+                    <li class="list-group-item disabled" aria-disabled="true">A disabled item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                    <li class="list-group-item">A fourth item</li>
+                    <li class="list-group-item">And a fifth one</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <!-- #endregion -->
+
+
+    <!-- #region Links and buttons -->
+    <div class="container border p-2 rounded-2 mt-4">
+        <h3>Links and buttons</h3>
+        <div class="row">
+            <div class="col-md-6 p-4">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                        The current link item
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+                    <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+                    <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+                    <a class="list-group-item list-group-item-action disabled" aria-disabled="true">A disabled link
+                        item</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- #endregion -->
+
+    <!-- #region Flush  -->
+    <div class="container border p-2 rounded-2 mt-4">
+        <h3>Flush</h3>
+        <div class="row">
+            <div class="col-md-6 p-4">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                    <li class="list-group-item">A fourth item</li>
+                    <li class="list-group-item">And a fifth one</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- #endregion -->
+
+    <!-- #region numbered  -->
+    <div class="container border p-2 rounded-2 mt-4">
+        <h3>Numbered</h3>
+        <div class="row">
+            <div class="col-md-6 p-4">
+                <ol class="list-group list-group-numbered">
+                    <li class="list-group-item">A list item</li>
+                    <li class="list-group-item">A list item</li>
+                    <li class="list-group-item">A list item</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <!-- #endregion -->
+
+    <!-- #region custom content  -->
+    <div class="container border p-2 rounded-2 mt-4">
+        <h3>Custom Content</h3>
+        <div class="row">
+            <div class="col-md-6 p-4">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">List group item heading</h5>
+                            <small>3 days ago</small>
+                        </div>
+                        <p class="mb-1">Some placeholder content in a paragraph.</p>
+                        <small>And some small print.</small>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">List group item heading</h5>
+                            <small class="text-body-secondary">3 days ago</small>
+                        </div>
+                        <p class="mb-1">Some placeholder content in a paragraph.</p>
+                        <small class="text-body-secondary">And some muted small print.</small>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">List group item heading</h5>
+                            <small class="text-body-secondary">3 days ago</small>
+                        </div>
+                        <p class="mb-1">Some placeholder content in a paragraph.</p>
+                        <small class="text-body-secondary">And some muted small print.</small>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- #endregion -->
+
+
+
+    <!-- #region Horizontal   -->
+    <div class="container border p-2 rounded-2 mt-4">
+        <h3>Horizontal</h3>
+        <div class="row">
+            <div class="col-md-6 p-4">
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                </ul>
+                <ul class="list-group list-group-horizontal-sm">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                </ul>
+                <ul class="list-group list-group-horizontal-md">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                </ul>
+                <ul class="list-group list-group-horizontal-lg">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                </ul>
+                <ul class="list-group list-group-horizontal-xl">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                </ul>
+                <ul class="list-group list-group-horizontal-xxl">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- #endregion -->
+
+    <!-- #region Variants    -->
+    <div class="container border p-2 rounded-2 mt-4">
+        <h3>Variants </h3>
+        <div class="row">
+            <div class="col-md-6 p-4">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action">A simple default list group item</a>
+
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-primary">A simple primary
+                        list group item</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">A simple
+                        secondary list group item</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-success">A simple success
+                        list group item</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-danger">A simple danger
+                        list group item</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-warning">A simple warning
+                        list group item</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info">A simple info list
+                        group item</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-light">A simple light list
+                        group item</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-dark">A simple dark list
+                        group item</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- #endregion -->
+
+    <!-- #region With badges    -->
+    <div class="container border p-2 rounded-2 mt-4 mb-4">
+        <h3>With badges </h3>
+        <div class="row justify-content-center">
+            <div class="col-md-6 p-4">
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        A list item
+                        <span class="badge text-bg-primary rounded-pill">14</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        A second list item
+                        <span class="badge text-bg-primary rounded-pill">2</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        A third list item
+                        <span class="badge text-bg-primary rounded-pill">1</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- #endregion -->
+
+    <!-- #region Checkboxes and radios    -->
+    <div class="container border p-2 rounded-2 mt-4 mb-4">
+        <h3>Checkboxes and radios </h3>
+        <div class="row justify-content-center">
+            <div class="col-md-6 p-4">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                        <label class="form-check-label" for="firstCheckbox">First checkbox</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                        <label class="form-check-label" for="secondCheckbox">Second checkbox</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                        <label class="form-check-label" for="thirdCheckbox">Third checkbox</label>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6 p-4">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="firstRadio"
+                            checked>
+                        <label class="form-check-label" for="firstRadio">First radio</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio" value=""
+                            id="secondRadio">
+                        <label class="form-check-label" for="secondRadio">Second radio</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio" value=""
+                            id="thirdRadio">
+                        <label class="form-check-label" for="thirdRadio">Third radio</label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- #endregion -->
+
+
+    <!-- #region List Tabs    -->
+    <div class="container border p-2 rounded-2 mt-4 mb-4">
+        <h3>List Tabs </h3>
+        <div class="row justify-content-center">
+            <div class="col-md-6 p-4">
+                <ul class="list-group" id="myTab" role="tablist">
+                    <li class="list-group-item" role="presentation">
+                        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
+                            type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+                    </li>
+                    <li class="list-group-item" role="presentation">
+                        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
+                            type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+                    </li>
+                    <li class="list-group-item" role="presentation">
+                        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact"
+                            type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-5 p-4 border rounded-2 me-auto">
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <p>This is the Home tab content.</p>
+                    </div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <p>This is the Profile tab content.</p>
+                    </div>
+                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                        <p>This is the Contact tab content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- #endregion -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
